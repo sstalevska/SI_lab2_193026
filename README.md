@@ -1,6 +1,7 @@
 # SI_lab2_193026
 
-Control Flow Graph
+Control Flow Graph -->
+
 ![191230187_562886481361606_8805420433739061990_n (1)](https://user-images.githubusercontent.com/82288889/120120084-714e9880-c19b-11eb-8b52-77df28adeccc.jpg)\
 
 Цикломатска комплексност -->
@@ -11,6 +12,7 @@ Control Flow Graph
 
 
 I)	if (hr < 0 || hr > 24)
+
  1)
 combination: TX
 possible test case: -2, 2
@@ -28,6 +30,7 @@ branch:
 
 
  II)	if (min < 0 || min > 59)
+ 
  1)
 combination: TX
 possible test case: -2, 2
@@ -45,6 +48,7 @@ branch:
 
 
 III)	if (sec >= 0 && sec <= 59)
+
  1)
 combination: TF
 possible test case: 2, 66
@@ -62,6 +66,7 @@ branch:
 
 
 III)	else if (hr == 24 && min == 0 && sec == 0)  
+
  1)
 combination: TTT
 possible test case: 24, 0, 0
